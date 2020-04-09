@@ -1,0 +1,17 @@
+{
+  "name": "gltfcompressor",
+  "version": "1.0.0",
+  "description": "Compressing GLTF files into draco compresed gltf files.",
+  "main": "gltfCompressor.js",
+  "scripts": {
+    "test": "echo \"Test: Dostum sıkıntı yok :D\" "
+  },
+  "author": "Ömer Faruk YILDIRIM",
+  "license": "ISC",
+  "bin": {
+    "compressThisGltf": "./gltfCompressor.js"
+  },
+  "dependencies": {
+    "gltf-pipeline": "^2.1.9"
+  }
+}
