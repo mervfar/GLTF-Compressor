@@ -5,7 +5,7 @@ const fsExtra = require('fs-extra');
 const processGltf = gltfPipeline.processGltf;
 const options = {
     dracoOptions: {
-        compressionLevel: 10
+        compressionLevel: 7
     }
 }
 
